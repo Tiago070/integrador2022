@@ -27,3 +27,4 @@ function atk(){
 
     enemys_life(10)
 };
+ 
