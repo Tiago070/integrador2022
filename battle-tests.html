@@ -4,23 +4,39 @@
     <meta charset="utf-8">
     <title>PROJECT_TESTS_INDEX</title>
     
+    <link rel="icon" type="image/x-icon" href="https://www.gifcen.com/wp-content/uploads/2021/09/kirby-gif-2.gif">
     <link rel="stylesheet" href="battle-tests.css">
     
 </head>
 <body>
+    
+<div>
+
+
+    
     <div class="game-board">
-
         <div id="char" class="char"><output id="life"></output></div>
-
-        <div class="enemy"><output id="enemys_life" value="100"></output></div>
-
+        
+        <div id="enemy" class="enemy"><output id="enemys_life" value="100">100</output></div>
+        
+        
     </div>
-
+    <progress id="stamina" class="stamina" max="100" value="100"></progress>
     <div class="painel">
+        
+        <button type="button" id="atk" onclick="atk_opt()">ATK</button>
+            <div id="atk_opt" class="atk_opt">
+                <button type="button" id="atk1" onclick="atk1(10, 10)">ATK1</button>
+                <button type="button" id="atk2" onclick="atk2()">ATK2</button>
+                <button type="button" id="cancel_atk" onclick="cancel_atk()">cancel</button>
+            </div>
+        
 
-        <button type="button" id="atk-bt" onclick="atk()">ATK</button>
-
+        <button type="button" id="dfs" onclick="def()">DFS</button>
+        
     </div>
+    
+</div>
 </body>
 <script src="battle-tests.js"></script>
 </html>
