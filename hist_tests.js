@@ -17,7 +17,7 @@ function typing(){
 }
 
 function opt1(){
-    text_typing = String(option_1[list.indexOf(text_typing)]);
+    text_typing = String(option_1[text.indexOf(text_typing)]);
 
     counter = 0
 
