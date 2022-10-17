@@ -2,7 +2,7 @@ const text = ["Olá Jogador, me sinto lisonjeada por sua escolha ser minha pesso
 
 const option_1 = ["Filha de Maria Teresa da Áustria e de Francisco I do Sacro Império Romano-Germânico, nunca teve amor maternal de seus pais, por conta de assuntos de estado."]
 
-var text_typing = String(list[0]);
+var text_typing = String(text[0]);
 var counter = 0;
 
 function typing(){
