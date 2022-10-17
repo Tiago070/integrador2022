@@ -20,6 +20,6 @@ function opt1(){
     text_typing = String(option_1[text.indexOf(text_typing)]);
 
     counter = 0
-
+    document.getElementById("text").innerHTML = "";
     typing()
 }
