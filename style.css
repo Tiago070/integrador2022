@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     background-image: url("https://user-images.githubusercontent.com/115474014/194879873-929e1802-c569-4efc-83d2-687ff0b959e7.jpg");
 }
 
