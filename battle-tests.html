@@ -22,17 +22,19 @@
         
     </div>
     <progress id="stamina" class="stamina" max="100" value="100"></progress>
+    <progress id="lif" class="life" max="100" value="100"></progress>
+    
     <div class="painel">
         
         <button type="button" id="atk" onclick="atk_opt()">ATK</button>
             <div id="atk_opt" class="atk_opt">
-                <button type="button" id="atk1" onclick="atk1(10, 10)">ATK1</button>
-                <button type="button" id="atk2" onclick="atk2()">ATK2</button>
+                <button type="button" id="atk1" onclick="atk1(10, -10)">ATK1</button>
+                <button type="button" id="atk2" onclick="atk2(20, -25)">ATK2</button>
                 <button type="button" id="cancel_atk" onclick="cancel_atk()">cancel</button>
             </div>
         
 
-        <button type="button" id="dfs" onclick="def()">DFS</button>
+        <button type="button" id="dfs" onclick="dfs(10)">DFS</button>
         
     </div>
     
