@@ -10,7 +10,7 @@ h1, h2{
 }
 
 #iniciar {
-    background-color: white;
+    background-color: transparent;
     color: black;
     border: 2px solid coral;
     border-radius: 8px;
