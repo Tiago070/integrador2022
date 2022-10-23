@@ -32,4 +32,8 @@ h1, h2{
 #aleatorio{
     display: inline-block;
 }
+
+#logo{
+    text-align: right;
+}
     
