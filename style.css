@@ -12,7 +12,7 @@ h1, h2{
 #iniciar {
     background-color: transparent;
     color: black;
-    border: 2px solid coral;
+    border: 2px solid rgb(35, 71, 233);
     border-radius: 8px;
     font-size: 20px;
     text-decoration: none;
@@ -34,7 +34,6 @@ h1, h2{
 }
 
 #logo{
-    align: right;
-    display: inline-block;
+    display:inline-block;
 }
     
