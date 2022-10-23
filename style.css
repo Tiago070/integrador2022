@@ -20,4 +20,16 @@ h1, h2{
     display: inline-block;
     text-align: center;
 }
- 
+
+#maria_antonieta{
+    display: inline-block;
+}
+
+#soldado{
+    display: inline-block;
+}
+
+#aleatorio{
+    display: inline-block;
+}
+    
