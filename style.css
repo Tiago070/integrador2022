@@ -34,7 +34,7 @@ h1, h2{
 }
 
 #logo{
-    text-align: right;
+    align: right;
     display: inline-block;
 }
     
