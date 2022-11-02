@@ -1,3 +1,4 @@
+/*Estilização geral*/
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 body{
     font-family: 'EB Garamond', sans-serif;
@@ -5,11 +6,13 @@ body{
     background-size: 100%;
 }
 
-h1, h2{
+/*Nome do jogo*/
+h1{
     text-align: center;
 }
 
-#botao_iniciar {
+/*Botão iniciar*/
+#iniciar {
     background-color: transparent;
     color: black;
     border: 2px solid rgb(35, 71, 233);
@@ -21,6 +24,7 @@ h1, h2{
     text-align: center;
 }
 
+/*Botões de escolha de personagens*/
 #maria_antonieta{
     display: inline-block;
 }
@@ -33,6 +37,7 @@ h1, h2{
     display: inline-block;
 }
 
+/*Imagem da logo*/
 #logo{
     display:inline-block;
     text-align: right;
