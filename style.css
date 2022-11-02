@@ -21,6 +21,18 @@ h1, h2{
     text-align: center;
 }
 
+#botao_regras {
+    background-color: transparent;
+    color: black;
+    border: 2px solid rgb(35, 71, 233);
+    border-radius: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 150px;
+    display: inline-block;
+    text-align: center;
+}
+
 #maria_antonieta{
     display: inline-block;
 }
