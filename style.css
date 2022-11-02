@@ -9,7 +9,7 @@ h1, h2{
     text-align: center;
 }
 
-.botao_iniciar {
+#botao_iniciar {
     background-color: transparent;
     color: black;
     border: 2px solid rgb(35, 71, 233);
