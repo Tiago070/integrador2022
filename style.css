@@ -11,6 +11,36 @@ h1{
     text-align: center;
 }
 
+/*Botão iniciar2 teste*/
+.bnt_iniciar:before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
+background-color: var(--backgroud-color);
+border-radius: 50%;
+transition: transform 500ms ease-in-out;
+transform: scale(1.5);
+}
+
+.bnt_iniciar:hover::before,.bnt_iniciar:focus::before{
+transform: scale(0);    
+}
+
+.bnt_iniciar{
+z-index: 1;
+overflow: hidden;
+background-color: var(--accent-color);
+transition: color 500ms ease-in-out;
+}
+
+.bnt_iniciar:hover::before,.bnt_iniciar:focus::before{
+color: white;    
+}
+
 /*Botão iniciar*/
 #iniciar {
     background-color: transparent;
