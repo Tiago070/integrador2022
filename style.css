@@ -27,6 +27,7 @@ h1{
 /*Botões de escolha de personagens*/
 #maria_antonieta{
     display: inline-block;
+    padding-left: 50px;
 }
 
 #soldado{
