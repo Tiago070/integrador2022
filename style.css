@@ -11,38 +11,8 @@ h1{
     text-align: center;
 }
 
-/*Botão iniciar2 teste*/
-#btn_iniciar:a.hover{
-content: '';
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-z-index: -1;
-background-color: var(--backgroud-color);
-border-radius: 50%;
-transition: transform 500ms ease-in-out;
-transform: scale(1.5);
-}
-
-#btn_iniciar:hover::a.hover, #btn_iniciar:focus::a.hover{
-transform: scale(0);    
-}
-
-#btn_iniciar{
-z-index: 1;
-overflow: hidden;
-background-color: var(--accent-color);
-transition: color 500ms ease-in-out;
-}
-
-#btn_iniciar:hover::a.hover, #btn_iniciar:focus::a.hover{
-color: white;    
-}
-
 /*Botão iniciar*/
-#iniciar {
+#btn_iniciar {
     background-color: transparent;
     color: black;
     border: 2px solid rgb(35, 71, 233);
