@@ -3,35 +3,37 @@
     <head>
 	    <meta charset="utf-8">
 	    <title>Poggers</title>
-	    <link rel="stylesheet" href="style.css">
-	    <script src="script.js"></script>
+	    <link rel="stylesheet" href="1_stylePI.css">
     </head>
 	
     <body>
+        <!--Cabeçalho-->
 		<h1>POGGERS</h1>
-	    <br><br>
-	    <h1 id="nome_jogo">A revolução</h1>
-	    	<hr>
 	    
+	    <h1 id="nome_jogo">A revolução</h1>
+	    <hr>
+	    
+        <!--Botão para levar o jogador para o jogo(arquivo hist_tests)-->
 		<div>
 			<button id="btn_iniciar">Iniciar</button>	
-		</div>
-			
+		</div><br>
+		
+        <!--Botões de escolha de personagem. Vai definir qual arquivo seguirá-->
 		<div id="escolha de personagem">
 			<div id="pergunta_personagem">Escolha o personagem:</div>
 			
-			<div id="maria_antonieta"><button><img src="https://user-images.githubusercontent.com/115472816/197420377-4f73e300-56bf-49dd-885c-1b7b7dd21c05.jpg" width:"200%"></button></div>
-			<div id="soldado"><button><img src="https://user-images.githubusercontent.com/115472816/197420516-ae96523a-8e24-4c55-b7ca-2e9c8f3b8adf.png" width:"200%"></button></div>
+			<div id="maria_antonieta"><button><img src="https://user-images.githubusercontent.com/115472816/197420377-4f73e300-56bf-49dd-885c-1b7b7dd21c05.jpg" width="200" height="250"></button></div>
+			<div id="soldado"><button><img src="https://user-images.githubusercontent.com/115472816/197420516-ae96523a-8e24-4c55-b7ca-2e9c8f3b8adf.png" width="200" height="250"></button></div>
 			<div id="aleatorio"><button>Aleatorio</button></div>
+		<!--Logo do jogo-->
 		<div id="logo">
-				<img src="https://user-images.githubusercontent.com/89099563/197780537-87187fb9-f4b3-4237-95ab-3e7e8fc46ede.png" width:"200%">	</div>	    
-			<div id="div_integrantes">
-		    <div id="nome_integrantes">Integrantes: Werik, Gabriel Antunes, Alvaro, Bruno, Ana Clara, Tiago, Gabriel Alves, Grazielly, Ándre, Arthur, Luiz</div>
-			</div>
-	    	<br>
-	    	<hr>
+				<img src="https://user-images.githubusercontent.com/89099563/197780537-87187fb9-f4b3-4237-95ab-3e7e8fc46ede.png" width="300">
+        </div>	
+        </div><br>
+        
+        <hr>
 	    
-
+	    <!--Orientações para o jogador-->
 		<div id="regras">
 			<button id="botao_regras" type="button" onclick=exibirregras()>Orientações</button>
 			<p id="topicos"></p>
@@ -40,10 +42,11 @@
 		
 		<a href="battle-tests.html">battle_test</a>
 		<a href="hist_tests.html">hits test</a>
-			
+
+
+		<!--Botão que irá levar a outra página com os créditos-->	
 		<div id="creditos">
-			<button id="botao_creditos" href="">Créditos</button>
-		</div> <!--botão de creditos-->
-			
+			<button id="botao_creditos"><a href="1.1_creditos.html">Créditos</a></button>
+		</div>
   </body> 
 </html>
