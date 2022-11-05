@@ -32,10 +32,12 @@ h1{
 
 #soldado{
     display: inline-block;
+    padding-left: 25px;
 }
 
 #aleatorio{
     display: inline-block;
+    padding-left: 25px;
 }
 
 /*Imagem da logo*/
