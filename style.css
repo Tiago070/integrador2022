@@ -17,7 +17,7 @@ h1{
 } 
 
 p {
-    font-size:large;
+    font-size:x-large;
 }
 
 /*Botão iniciar*/
@@ -108,9 +108,10 @@ button:hover {
 
 /*Botão de créditos*/
 #botao_creditos {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid rgb(35, 71, 233);
+    border-radius: 10px;
     padding: 15px 60px;
     text-align: center;
     text-decoration: none;
@@ -118,10 +119,6 @@ button:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: transparent; 
-    color: black; 
-    border: 2px solid rgb(35, 71, 233);
-    border-radius: 10px;
 }
 
 button:hover {
