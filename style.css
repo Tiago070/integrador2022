@@ -90,7 +90,7 @@ button:hover {
 #logo{
     display:inline-block;
     text-align: right;
-    padding-left: 350px;
+    padding-left: 250px;
 }
     
 /*Botão de orientações*/
@@ -115,7 +115,7 @@ button:hover {
 #botao_creditos {
     background-color: transparent; 
     color: black; 
-    border: 2px solid rgb(35, 71, 233);
+    border: 2px solid rgb(0, 102, 32);
     border-radius: 10px;
     padding: 15px 60px;
     text-align: center;
