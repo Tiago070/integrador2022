@@ -16,6 +16,11 @@ h1{
     background-color:#808080;
 } 
 
+#tx_aliquisdead{
+ color:	#800000;
+ font-family:FreeMono, monospace;
+}
+
 p {
     font-size:x-large;
 }
@@ -65,7 +70,7 @@ button:hover {
 #aleatorio{
     background-color: transparent;
     color: black;
-    border: 1px solid rgb(0, 102, 32);
+    border: 1px solid rgb(35, 71, 233);
     border-radius: 10px;
     font-size: 15px;
     text-decoration: none;
@@ -85,7 +90,7 @@ button:hover {
 #logo{
     display:inline-block;
     text-align: right;
-    padding-left: 250px;
+    padding-left: 350px;
 }
     
 /*Botão de orientações*/
