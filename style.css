@@ -65,7 +65,7 @@ button:hover {
 #aleatorio{
     background-color: transparent;
     color: black;
-    border: 1px solid rgb(35, 71, 233);
+    border: 1px solid rgb(0, 102, 32);
     border-radius: 10px;
     font-size: 15px;
     text-decoration: none;
@@ -85,7 +85,7 @@ button:hover {
 #logo{
     display:inline-block;
     text-align: right;
-    padding-left: 350px;
+    padding-left: 250px;
 }
     
 /*Botão de orientações*/
