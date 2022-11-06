@@ -1,7 +1,7 @@
 /*Estilização geral*/
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 body{
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'EB Garamond';
     background-image: url("https://user-images.githubusercontent.com/115473386/196437684-ee9a4e3e-4204-4893-aed6-727173242733.png");
     background-size: 100%;
 }
@@ -13,9 +13,12 @@ h1{
 
 /*corpo da morte de Aliquis*/
 #corpo_morte{
-    backgorund-color:#808080;
-}
+    background-color:#808080;
+} 
 
+p {
+    font-size:large;
+}
 
 /*Botão iniciar*/
 #btn_iniciar {
@@ -69,7 +72,7 @@ button:hover {
     padding: 12px 40px;
     display: inline-block;
     text-align: center;
-
+    
 }
 
 button:hover {
@@ -139,21 +142,31 @@ button:hover {
     transition: all 0.5s;
 }
 
-#botao_creditos{
-    border: 0.1ch solid black;
-    border-radius: 6px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 13px;
-    font-variant: small-caps;
-    text-decoration: none;
-    padding: 2px 17px;
-    display: inline-block;
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 60px;
     text-align: center;
-    background-color: rgb(206, 208, 212);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid rgb(35, 71, 233);
+    border-radius: 10px;
 }
 
 button:hover {
     transform: scale(1.1);
     transition: all 0.5s;
 }
-
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+} 
