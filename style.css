@@ -106,44 +106,9 @@ button:hover {
     transition: all 0.5s;
 }
 
-#botao_battle{
-    border: 0.1ch solid black;
-    border-radius: 6px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 13px;
-    font-variant: small-caps;
-    text-decoration: none;
-    padding: 2px 13px;
-    display: inline-block;
-    text-align: center;
-    background-color: rgb(206, 208, 212);
-}
-
-button:hover {
-    transform: scale(1.1);
-    transition: all 0.5s;
-}
-
-#botao_hits {
-    border: 0.1ch solid black;
-    border-radius: 6px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 13px;
-    font-variant: small-caps;
-    text-decoration: none;
-    padding: 2px 15px;
-    display: inline-block;
-    text-align: center;
-    background-color: rgb(206, 208, 212);
-}
-
-button:hover {
-    transform: scale(1.1);
-    transition: all 0.5s;
-}
-
-.button {
-    background-color: #4CAF50; /* Green */
+/*Botão de créditos*/
+#botao_creditos {
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 15px 60px;
@@ -153,9 +118,6 @@ button:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
-
-.button1 {
     background-color: transparent; 
     color: black; 
     border: 2px solid rgb(35, 71, 233);
@@ -166,6 +128,8 @@ button:hover {
     transform: scale(1.1);
     transition: all 0.5s;
 }
+
+/*Estilização de links*/
 a:link, a:visited{
     text-decoration: none;
     color: black;
