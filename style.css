@@ -13,7 +13,7 @@ body{
   padding: 2rem;
 }
 
-// It actually starts here
+/*It actually starts here*/
 
 $menu-bg: #DE4152;
 $menu-color: #ffffff;
@@ -35,7 +35,7 @@ $hamburger-zindex: $menu-zindex + 10;
   text-align: center;
   top: 0;
   transition: all 0.7s ease-in-out;
-  // For some sweet fadez
+  /*For some sweet fadez*/
   visibility: hidden;
   width: 100%;
   z-index: $menu-zindex;
