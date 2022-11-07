@@ -5,8 +5,8 @@ body{
     background-image: url("https://user-images.githubusercontent.com/115473386/196437684-ee9a4e3e-4204-4893-aed6-727173242733.png");
     background-size: 100%;
 }
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700);
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700);
 
 /*botão de menu*/
 #header {
