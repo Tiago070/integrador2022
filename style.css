@@ -75,7 +75,7 @@ $hamburger-zindex: $menu-zindex + 10;
     }
   }
 
-  .main-nav {
+  #main-nav {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -100,7 +100,7 @@ $hamburger-zindex: $menu-zindex + 10;
     }
   }
 
-  .menu-footer {
+  #menu-footer {
     padding: 2rem;
     bottom: 0;
     left: 0;
@@ -128,7 +128,7 @@ $hamburger-zindex: $menu-zindex + 10;
 }
 
 
-// Hamburger menu toggler stuff below
+/*Hamburger menu toggler stuff below*/
 .toggle-menu {
   background-color: transparent;
   border: none;
