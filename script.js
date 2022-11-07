@@ -18,8 +18,3 @@ function exibirregras(){
     var Element = document.getElementById("topicos");
     Element.innerHTML = "1. Escolha o personagem;.<br>2. Leia as instruções nos quadros;<br>3. Analise as informações e faça sua escolha;<br>4. Prossiga a história seguindo as orientações.";
 }
-/*js botão menu*/
-$('.toggle-menu').click (function(){
-  $(this).toggleClass('active');
-  $('#menu').toggleClass('open');
-});
