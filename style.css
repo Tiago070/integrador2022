@@ -7,11 +7,6 @@ body{
 }
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700);
 
-body {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: radial-gradient(circle, #322538, #1f1f1f);
-  font-size: 13px;
-}
 
 /*botão de menu*/
 #header {
