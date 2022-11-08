@@ -1,7 +1,7 @@
 // ENDING FUNCTION
 
     // IN LINK1, THE PAGE CASE WIN, IN LINK2, CASE LOSE
-        const link1 = "";
+        const link1 = "https://tiago070.github.io/integrador2022/Aliquis 3";
         const link2 = "https://tiago070.github.io/integrador2022/morte_aliquis2.html";
 
 function ending(link){
