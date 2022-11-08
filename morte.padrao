@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Você Morreu!</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    
+    <div id="div_morte"><h1> Você Morreu! </h1>
+  <img src="https://user-images.githubusercontent.com/89099563/200555946-2b4178b9-236a-4db0-8b19-cd0e8093e836.png" alt="caveira">
+  </div>
+
+</body>
+
+</html>
