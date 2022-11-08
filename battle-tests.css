@@ -10,7 +10,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-image: linear-gradient(rgba(0, 0, 50, 0.5), transparent, rgba(0, 0, 50, 0.5)), url("https://user-images.githubusercontent.com/115472944/196083968-ac4e601c-0a37-484b-bc83-462c0b3b41b1.png");
+    background-image: linear-gradient(rgba(0, 0, 50, 0.5), transparent, rgba(0, 0, 50, 0.5)), url("BRICK_1A.png");
     background-size: 10%;
 }
 
@@ -67,6 +67,8 @@ body {
 }
 
 
+
+
 /* ANIMATIONS AND CLASS ANIMATIONS */
 
 @keyframes atk {
@@ -85,6 +87,22 @@ body {
     animation: atk 50ms;
 }
 
+@keyframes e_atk {
+    99.9% {
+        right: 100px;
+        top: 60px;
+    }
+
+    100% {
+        right: 50px;
+        top: 30px;
+    }
+}
+
+.e_atk {
+    animation: e_atk 50ms;
+}
+
 @keyframes dying {
     0% {
         opacity: 100%;
@@ -98,4 +116,3 @@ body {
 .dying {
     animation: dying 1000ms forwards;
 }
-
