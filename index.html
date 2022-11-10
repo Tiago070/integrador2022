@@ -6,57 +6,64 @@
 	    <link rel="stylesheet" href="style.css">
 	    <script src="script.js"></script>
     </head>
-    <body>
+    <div>
         <!--Cabeçalho-->
 		<h1>POGGERS</h1>
 	    
 	    <h1 id="nome_jogo">A revolução</h1>
-	    <hr><br><br>
+	    <br><br>
 	    
         <!--Botão para levar o jogador para o jogo-->
 	    <center>
 		<div>
 			<p>Clique aqui para começar sua jornada:</p>
-			<button id="btn_iniciar"><a href="https://tiago070.github.io/integrador2022/Aliquis 1.html">Iniciar</a></button>	
-		    </div><br><br><br>
+			<button id="button_iniciar"><a href="https://tiago070.github.io/integrador2022/Aliquis 1.html">Iniciar</a></button>	
+		    </div><br>
 	    </center>
 		
         <!--Botões de escolha de personagem. Vai definir qual arquivo seguirá-->
 		<div id="escolha de personagem">
-			<div id="pergunta_personagem"><p>Escolha o personagem:</p></div>
+			<div id="escolha_personagem"><p>Escolha o personagem:</p></div>
 			
-			<div id="maria_antonieta"><button><img src="https://user-images.githubusercontent.com/115472816/197420377-4f73e300-56bf-49dd-885c-1b7b7dd21c05.jpg" width="200" height="250"></button></div>
-			<div id="soldado">
-				<button>
-					<a href="https://tiago070.github.io/integrador2022/Aliquis 1.html">
+			<div id="maria_antonieta">
+				<button id="pe_maria">
+					<a href="#">
 						<figure>
-							<img src="https://user-images.githubusercontent.com/115472816/197420516-ae96523a-8e24-4c55-b7ca-2e9c8f3b8adf.png" width="200" height="250">
+							<img src="" width="200" height="250">
+							<figcaption>Maria Antonieta</figcaption>
+						</figure>	
+					</a>
+				</button>
+			</div>
+
+			<div id="soldado">
+				<button id="pe_aliquis">
+					<a href="aliquis.png">
+						<figure>
+							<img src="aliquis.png" width="200" height="250">
 							<figcaption>Aliquis Petit</figcaption>
 						</figure>
 					</a>
 				</button>
 			</div>
-			<button id="aleatorio">Aleatorio</button>
-		<!--Logo do jogo-->
-		<div id="logo">
-				<img src="https://user-images.githubusercontent.com/115472816/200200517-1861b210-2f7d-4294-9397-24aa89fdc304.jpg" width="400">
-        </div>	
-        </div><br>
+			<button id="button_aleatorio">Aleatório</button>
+			<!--Logo do jogo-->
+			<div id="logo">
+					<img src="https://user-images.githubusercontent.com/115472816/200200517-1861b210-2f7d-4294-9397-24aa89fdc304.jpg" width="250">
+			</div>	
+        </div>
         
         
-	    <br><br><br>
 	    <!--Orientações para o jogador-->
 		<div id="regras">
 			<center>
-			<button id="botao_regras" type="button" onclick=exibirregras()>Orientações</button>
+			<button id="button_regras" type="button" onclick=exibirregras()>Orientações</button>
 			<p id="topicos"></p>
 			</center>
-		</div>
-	
 
-		<!--Botão que irá levar a outra página com os créditos-->	
+			<!--Botão que irá levar a outra página com os créditos-->	
 		
-		<button id="botao_creditos"><a href="https://tiago070.github.io/integrador2022/creditospag.html">Créditos</a></button>
-	
+			<button id="button_creditos"><a href="https://tiago070.github.io/integrador2022/creditospag.html">Créditos</a></button>
+		</div>
   </body> 
 </html>
