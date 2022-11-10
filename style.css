@@ -1,82 +1,63 @@
-/*Estilização geral*/
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 body{
     font-family: 'EB Garamond';
-    background-image: url("https://user-images.githubusercontent.com/115473386/196437684-ee9a4e3e-4204-4893-aed6-727173242733.png");
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/106/640/non_2x/empty-silhouette-medieval-background-free-vector.jpg");
     background-size: 100%;
 }
 
-
-/*Hamburger menu toggler stuff below*/
-.toggle-menu {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  float: right;
-  height: $hamburger-height;
-  outline: none;
-  padding: 0;
-  pointer-events: initial;
-  position: relative;
-  vertical-align: middle;
-  width: $hamburger-width;
-  z-index: $hamburger-zindex;
-
-  span {
-    background-color: $hamburger-color;
-    content: "";
-    display: block;
-    height: 2px;
-    left: calc(50% - 13px );
-    position: absolute;
-    top: calc(50% - 1px );
-    transform-origin: 50% 50%;
-    transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear;
-    width: 26px;
-
-    &:before, &:after {
-      background-color: $hamburger-color;
-      content: "";
-      display: block;
-      height: 2px;
-      position: absolute;
-      transform-origin: 50% 50%;
-      transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear;
-      width: 26px;
-    }
-
-    &:before {
-      top: 7px;
-    }
-
-    &:after {
-      top: -7px;
-    }
-  }
-
-  &.active {
-    span {
-      background-color: transparent;
-      transition: background 0.2s ease-out;
-
-      &:before, &:after {
-        transition: top 0.2s ease-out, transform 0.2s 0.2s ease-out;
-      }
-
-      &:before {
-        top: 0;
-        transform: rotate3d(0, 0, 1, -45deg);
-      }
-
-      &:after {
-        top: 0;
-        transform: rotate3d(0, 0, 1, 45deg);
-      }
-    }
-  }
+/*estilização dos botoes de inicio, aleatorio, orientações e créditos*/
+[id ^= button] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
 }
-/*aqui acaba a parte do botão de menu*/
+  
+[id ^= button] {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+  
+[id ^= button]:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+[id ^= button]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/*estilização dos botões de escolha de personagem*/
+[id ^= pe] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    cursor: pointer;
+}
+  
+[id ^= pe] {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
 
 /*Nome do jogo*/
 h1{
@@ -94,6 +75,7 @@ h1{
  font-family:FreeMono, monospace;
 }
 
+/*escolha o personagem e clique para iniciar*/
 p {
     font-size:x-large;
 }
@@ -122,7 +104,7 @@ button:hover {
     background-color: transparent;
     display: inline-block;
     padding-left: 50px;
-    
+    margin:auto;
 }
 button:hover {
     transform: scale(1.1);
@@ -140,17 +122,10 @@ button:hover {
     transition: all 0.5s;
 }
 
-#aleatorio{
-    background-color: transparent;
-    color: black;
-    border: 1px solid rgb(35, 71, 233);
-    border-radius: 10px;
-    font-size: 15px;
-    text-decoration: none;
-    padding: 12px 40px;
+#button_aleatorio{
+    margin: 12px 40px 100px 25px;
+    padding: 30px 40px 30px 40px;
     display: inline-block;
-    text-align: center;
-    
 }
 
 button:hover {
@@ -163,20 +138,13 @@ button:hover {
 #logo{
     display:inline-block;
     text-align: right;
-    padding-left: 250px;
+    padding-left: 350px;
 }
     
 /*Botão de orientações*/
-#botao_regras {
-    border: 0.1ch solid black;
-    border-radius: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 12px 120px;
-    display: inline-block;
-    text-align: center;
-    background-color: rgb(206, 208, 212);
+#button_regras {
+    margin-left: 25px;
+    float: left;
 }
 
 button:hover {
@@ -185,18 +153,9 @@ button:hover {
 }
 
 /*Botão de créditos*/
-#botao_creditos {
-    background-color: transparent; 
-    color: black; 
-    border: 2px solid rgb(0, 102, 32);
-    border-radius: 10px;
-    padding: 15px 60px;
-    text-align: center;
-    text-decoration: none;
+#button_creditos {
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    margin-left: 1175px;
 }
 
 button:hover {
