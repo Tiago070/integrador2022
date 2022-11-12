@@ -7,7 +7,7 @@ body{
 
 /*estilização dos botoes de inicio, aleatorio, orientações e créditos*/
 [id ^= button] {
-    background-color: #4CAF50; /* Green */
+    background-color: #bd6417; /* Green */
     border: none;
     border-radius: 10px;
     color: white;
@@ -19,17 +19,17 @@ body{
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px rgb(160, 84, 44);
 }
   
 [id ^= button] {
     background-color: white; 
     color: black; 
-    border: 2px solid #4CAF50;
+    border: 2px solid #bd6417;
 }
   
 [id ^= button]:hover {
-    background-color: #4CAF50;
+    background-color: #bd6417;
     color: white;
 }
 
@@ -41,7 +41,7 @@ body{
 
 /*estilização dos botões de escolha de personagem*/
 [id ^= pe] {
-    background-color: #4CAF50;
+    background-color: #bd6417;
     border: none;
     color: white;
     padding: 0px;
@@ -56,7 +56,7 @@ body{
 [id ^= pe] {
     background-color: white; 
     color: black; 
-    border: 2px solid #4CAF50;
+    border: 2px solid #bd6417;
 }
 
 /*Nome do jogo*/
