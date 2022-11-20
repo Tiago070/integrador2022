@@ -2055,7 +2055,7 @@ function applyPoint(next) {
     
 // SE OPT1 TEXT IGUAL A BATALHAR ENTÃO BASTA COLOCAR O LINK DA RESPECTIVA PÁGINA DE COMBATE
     if(point.opt1.text == "Batalhar"){
-        window.location = "battle_tests_batalha2.html";
+        window.location = "https://tiago070.github.io/integrador2022/battle_tests_batalha2.html";
     }
 
     counter = 0;
