@@ -1921,7 +1921,7 @@ function applyPoint(next) {
     if(point.action == "Filha de Maria Teresa da Áustria e de Francisco I do Sacro Império Romano-Germânico, nunca teve amor maternal de seus pais, por conta de assuntos de estado."){
         document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/Km72vpF.jpeg")   
     }
-    if(point.action == 'Você acabou de se tornar rainha, e na primavera de 1775, por conta do programa econômico do ministro das finanças, e a Guerra da Farinha, lhe atribuem a frase "Se o povo não tem pão, que coma brioches!". O que pretende fazer?'){
+    if(point.action == "Você acabou de se tornar rainha, e na primavera de 1775, por conta do programa econômico do ministro das finanças, e a Guerra da Farinha, lhe atribuem a frase 'Se o povo não tem pão, que coma brioches!'. O que pretende fazer?"){
         document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/2pvf6Ba.jpeg")   
     }
     
