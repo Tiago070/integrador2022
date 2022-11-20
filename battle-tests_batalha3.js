@@ -12,10 +12,10 @@ function reiniciar(){
     document.location.reload(true);
 }
 
-const link1 = "aliquis_index_combate1.html" ;
+const link3 = "aliquis_index_combate3.html" ;
 
 function link_function(){
-    window.location = link1;
+    window.location = link3;
 }
 
 //CHAR'S DECLARATIONS
