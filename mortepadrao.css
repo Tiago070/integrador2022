@@ -1,0 +1,11 @@
+img {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 25%;
+    height: 35%;
+    
+}
+.div_morte {
+    src: url('Tangerine-Bold.ttf');
+}
