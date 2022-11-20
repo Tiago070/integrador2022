@@ -9,7 +9,7 @@ body {
     margin: 0%;
     padding: 0%;
     background-repeat: no-repeat;
-    background-image: linear-gradient(white 50%, transparent 50%), url("https://tiago070.github.io/integrador2022/BRICK_1A.png");
+    background-image: linear-gradient(white 50%, transparent 50%), url("BRICK_1A.png");
     background-size: 100%;
     z-index: 1;
     overflow-y: hidden;
