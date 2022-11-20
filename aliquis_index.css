@@ -5,6 +5,11 @@
     padding: 0%;
     margin: 0%;
 }
+#visuals1 {
+    background: url("https://cdn.discordapp.com/attachments/1042550172762247172/1043965235700170762/quadro_1_antonieta.jpg");
+    z-index: 1;
+    background-size: 50%;
+}
 body {
     margin: 0%;
     padding: 0%;
