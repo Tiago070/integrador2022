@@ -12,7 +12,7 @@ function reiniciar(){
     document.location.reload(true);
 }
 
-const link3 = "aliquis_index_combate3.html" ;
+const link3 = "https://tiago070.github.io/integrador2022/aliquis_index_combate3.html" ;
 
 function link_function(){
     window.location = link3;
