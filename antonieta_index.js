@@ -1921,9 +1921,25 @@ function applyPoint(next) {
     if(point.action == "Filha de Maria Teresa da Áustria e de Francisco I do Sacro Império Romano-Germânico, nunca teve amor maternal de seus pais, por conta de assuntos de estado."){
         document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/Km72vpF.jpeg")   
     }
-    if(point.action == "Você acabou de se tornar rainha, e na primavera de 1775, por conta do programa econômico do ministro das finanças, e a Guerra da Farinha, lhe atribuem a frase 'Se o povo não tem pão, que coma brioches!'. O que pretende fazer?"){
-        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/yIpznox.jpeg")   
+    if(point.action == 'Você acabou de se tornar rainha, e na primavera de 1775, por conta do programa econômico do ministro das finanças, e a Guerra da Farinha, lhe atribuem a frase "Se o povo não tem pão, que coma brioches!". O que pretende fazer?'){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/2pvf6Ba.jpeg")   
     }
+    if(point.action == 'Por medo da morte, todos param com a maldita frase, contudo, agora, surgem folhetos que à acusavam de assassinato.'){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/yIWNBXs.jpeg")   
+    }
+    if(point.action == 'O povo começa a lhe olhar com rancor e desprezo. Alguns jornais à chamava de cause de la faim (causadora de fome).'){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/3euQ14L.jpeg")   
+    }
+    if(point.action == "Sua cunhada, Maria Tereza, Condessa d'Artois, em 6 de agosto deu à luz um filho, por conta disto, a corte começa a lhe insultar severamente."){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/lakkFp7.png")   
+    }
+    if(point.action == 'Sua atitude gerou a circulação de panfletos que destacavam a impotência do rei e a busca do prazer sexual pela rainha, tanto com homens quanto mulheres.'){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/8XXScQV.jpeg")   
+    }
+    if(point.action == 'Às 12:15, a lâmina caia sobre seu pescoço. O carrasco, então, pega sua cabeça ensanguentada, mostra para o povo, gritando: "VIVA A REPÚBLICA!".'){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/oIntsA2.png")   
+    }
+    
     
     
 // SE OPT1 TEXT IGUAL A BATALHAR ENTÃO BASTA COLOCAR O LINK DA RESPECTIVA PÁGINA DE COMBATE
