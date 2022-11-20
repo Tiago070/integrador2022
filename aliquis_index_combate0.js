@@ -2059,6 +2059,10 @@ function applyPoint(next) {
     if(point.action == "Meu nome é Aliquis Petit, nasci em 1768, na região próxima ao Palácio de Versalhes. Não sei muito sobre meus pais, sou órfão desde que eu me entendo por gente. Minha maior ambição é conseguir fazer algo a respeito dessa monarquia, enquanto todos vivem na pobreza, o clero esnoba com suas festividades e negligenciam o próprio povo."){
         document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/fpRVIT0.jpeg")   
     }
+    if(point.action == 'Você acabou de se tornar rainha, e na primavera de 1775, por conta do programa econômico do ministro das finanças, e a Guerra da Farinha, lhe atribuem a frase "Se o povo não tem pão, que coma brioches!". O que pretende fazer?'){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/2pvf6Ba.jpeg")   
+    }
+    
     
 // SE OPT1 TEXT IGUAL A BATALHAR ENTÃO BASTA COLOCAR O LINK DA RESPECTIVA PÁGINA DE COMBATE
 
