@@ -2052,6 +2052,13 @@ function applyPoint(next) {
     
 
     const point = history[next];
+
+    if(point.action == "Olá caro Jogador, antes de interagir com o século 18, que tal saber um pouco sobre minha história??"){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/UPFb4JC.jpeg")   
+    }
+    if(point.action == "Meu nome é Aliquis Petit, nasci em 1768, na região próxima ao Palácio de Versalhes. Não sei muito sobre meus pais, sou órfão desde que eu me entendo por gente. Minha maior ambição é conseguir fazer algo a respeito dessa monarquia, enquanto todos vivem na pobreza, o clero esnoba com suas festividades e negligenciam o próprio povo."){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/fpRVIT0.jpeg")   
+    }
     
 // SE OPT1 TEXT IGUAL A BATALHAR ENTÃO BASTA COLOCAR O LINK DA RESPECTIVA PÁGINA DE COMBATE
 
@@ -2069,7 +2076,7 @@ setTimeout(() => {
     option3_bt.setAttribute('onclick', `applyPoint(${point.opt3.nextpoint})`);
 
     if(point.opt1.text == "Batalhar"){
-        option1_bt.setAttribute("onclick", "window.location = 'https://aaljim.github.io/Repositorio_jogo_I.N.C.E.L/battle_tests_batalha2.html'");
+        option1_bt.setAttribute("onclick", "window.location = 'https://aaljim.github.io/Repositorio_jogo_I.N.C.E.L/battle_tests_batalha1.html'");
     };
     if(point.opt1.text == "Você morreu"){
         option1_bt.setAttribute("onclick", "window.location = 'https://tiago070.github.io/integrador2022/morte_aliquis.html'");
