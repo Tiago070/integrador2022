@@ -5,13 +5,18 @@
     padding: 0%;
     margin: 0%;
 }
+#scene-image {
+    position: absolute;
+    z-index: 1;
+    left:2.5%;
+    top: 2%;
+}
 body {
     margin: 0%;
     padding: 0%;
     background-repeat: no-repeat;
-    background-image: linear-gradient(white 50%, transparent 50%), url("https://cdn.discordapp.com/attachments/1042550172762247170/1043870677863768174/4f_3.png");
+    background-image: url("https://cdn.discordapp.com/attachments/1042550172762247170/1043870677863768174/4f_3.png");
     background-size: 100%;
-    z-index: 1;
     overflow-y: hidden;
     overflow-x: hidden;
 }
