@@ -2077,4 +2077,4 @@ function applyPoint(next) {
     
 }
 
-applyPoint(50);
+applyPoint(0);
