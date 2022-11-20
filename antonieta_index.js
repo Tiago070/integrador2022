@@ -1880,61 +1880,79 @@
             ];
         
         
-        // CONST AND VARS DECLARATION:
+ // CONST AND VARS DECLARATION:
 
-    const action = document.getElementById("action-text");
-    const option1 = document.getElementById("option-1");
-    const option2 = document.getElementById("option-2");
-    const option3 = document.getElementById("option-3");
-    const option1_bt = document.getElementById("option-1-pushable");
-    const option2_bt = document.getElementById("option-2-pushable");
-    const option3_bt = document.getElementById("option-3-pushable");
+const action = document.getElementById("action-text");
+const option1 = document.getElementById("option-1");
+const option2 = document.getElementById("option-2");
+const option3 = document.getElementById("option-3");
+const option1_bt = document.getElementById("option-1-pushable");
+const option2_bt = document.getElementById("option-2-pushable");
+const option3_bt = document.getElementById("option-3-pushable");
 
 // FUNCTIONS:
 
-    function typing(){
-        if(counter < text_typing.length){
-            action.innerHTML += text_typing.charAt(counter);
-            
-            counter += 1;
+function typing(){
+    if(counter < text_typing.length){
+        action.innerHTML += text_typing.charAt(counter);
+        
+        counter += 1;
 
-            setTimeout(typing, 8);
-        };
+        setTimeout(typing, 8);
+    };
 
-    total_time =  (text_typing.length)*8
+total_time =  (text_typing.length)*8
 
-    return total_time;
+return total_time;
+}
+
+function applyPoint(next) {
+    option1.innerHTML = "";
+    option2.innerHTML = "";
+    option3.innerHTML = "";
+    action.innerHTML = "";
+    
+
+    const point = history[next];
+
+    if(point.action == "Olá Jogador, me sinto lisonjeada por sua escolha ser minha pessoa. Antes de adentrar a história, que tal conhecer mais sobre a minha?"){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/rdBV7Xv.jpeg")   
     }
-
-    function applyPoint(next) {
-        option1.innerHTML = "";
-        option2.innerHTML = "";
-        option3.innerHTML = "";
-        action.innerHTML = "";
-        
-
-        const point = history[next];
-           
-        
-        
-        
-        counter = 0;
-        text_typing = String(point.action); 
-        typing();
-
-        setTimeout(() => {
-            option1.innerHTML = String(point.opt1.text);
-            option2.innerHTML = String(point.opt2.text);
-            option3.innerHTML = String(point.opt3.text);
-
-            option1_bt.setAttribute('onclick', `applyPoint(${point.opt1.nextpoint})`);
-            option2_bt.setAttribute('onclick', `applyPoint(${point.opt2.nextpoint})`);
-            option3_bt.setAttribute('onclick', `applyPoint(${point.opt3.nextpoint})`);
-        }, total_time+250)
-        
+    if(point.action == "Filha de Maria Teresa da Áustria e de Francisco I do Sacro Império Romano-Germânico, nunca teve amor maternal de seus pais, por conta de assuntos de estado."){
+        document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/Km72vpF.jpeg")   
     }
+    
+    
+// SE OPT1 TEXT IGUAL A BATALHAR ENTÃO BASTA COLOCAR O LINK DA RESPECTIVA PÁGINA DE COMBATE
 
-    applyPoint(0);
+counter = 0;
+text_typing = String(point.action); 
+typing();
 
-// EVENTS:
+setTimeout(() => {
+    option1.innerHTML = String(point.opt1.text);
+    option2.innerHTML = String(point.opt2.text);
+    option3.innerHTML = String(point.opt3.text);
+    
+    option1_bt.setAttribute('onclick', `applyPoint(${point.opt1.nextpoint})`);
+    option2_bt.setAttribute('onclick', `applyPoint(${point.opt2.nextpoint})`);
+    option3_bt.setAttribute('onclick', `applyPoint(${point.opt3.nextpoint})`);
+    
+    
+
+    if(point.opt1.text == "Batalhar"){
+        option1_bt.setAttribute("onclick", "window.location = 'https://aaljim.github.io/Repositorio_jogo_I.N.C.E.L/battle_tests_batalha1.html'");
+    };
+    if(point.opt1.text == "Você morreu"){
+        option1_bt.setAttribute("onclick", "window.location = 'https://tiago070.github.io/integrador2022/morte_aliquis.html'");
+    };
+
+
+}, total_time+250)
+
+
+}
+
+applyPoint(0);
+
         
