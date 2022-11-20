@@ -2087,5 +2087,4 @@ setTimeout(() => {
 
     
 }
-
 applyPoint(0);
