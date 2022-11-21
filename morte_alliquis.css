@@ -8,6 +8,7 @@ h2{
  font-family:monospace;
  positon: center;
 }
+
 [id ^= botao_credito] {
     background-color: #bd6417; /* Green */
     border: none;
@@ -22,6 +23,10 @@ h2{
     transition-duration: 0.4s;
     cursor: pointer;
     box-shadow: 0 9px rgb(160, 84, 44);
+}
+
+[id ^= btn]{
+  text-decoration: none;
 }
   
 [id ^= botao_credito] {
