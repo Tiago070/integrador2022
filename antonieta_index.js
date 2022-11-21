@@ -2043,7 +2043,7 @@ function applyPoint(next) {
     if(point.action == 'Você morre na manhã de 16 de outubro, sem conseguir expressar seus sentimentos.'){
         document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/oIntsA2.png")    
     }
-    if(point.action == 'Você vai para a guilhotina em praça pública, onde suas últimas palavras são "Perdão, senhor. Eu não fiz de propósito'){
+    if(point.action == 'Você vai para a guilhotina em praça pública, onde suas últimas palavras são "Perdão, senhor. Eu não fiz de propósito", por ter pisado no pé do carrasco.'){
         document.getElementById("scene-image").setAttribute("src", "https://i.imgur.com/CFLczSY.jpeg")    
     }
     if(point.action == 'Às 12:15, a lâmina caia sobre seu pescoço. O carrasco, então, pega sua cabeça ensanguentada, mostra para o povo, gritando: "VIVA A REPÚBLICA!".'){
