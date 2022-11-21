@@ -6,7 +6,6 @@ h2{
  color:	white;
  font-size: 30px;
  font-family:monospace;
- text align: center;
 }
 
 [id ^= botao_credito] {
@@ -15,7 +14,6 @@ h2{
     border-radius: 10px;
     color: white;
     padding: 16px 32px;
-    align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
