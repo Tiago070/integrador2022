@@ -118,7 +118,7 @@ button:hover {
 #logo{
     display:inline-block;
     text-align: right;
-    padding-left: 550px;
+    margin-left: 550px;
 }
     
 /*Botão de orientações*/
