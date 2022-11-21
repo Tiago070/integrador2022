@@ -6,61 +6,77 @@
 	    <link rel="stylesheet" href="style.css">
 	    <script src="script.js"></script>
     </head>
-    <div>
-        <!--Cabeçalho-->
-		<h1>POGGERS</h1>
-	    
-	    <h1 id="nome_jogo">A revolução</h1>
-	    <br><br>
-	    
-        <!--Botão para levar o jogador para o jogo-->
-	    
-		<br>
-	    
-		
-        <!--Botões de escolha de personagem. Vai definir qual arquivo seguirá-->
-		<div id="escolha de personagem">
-			<div id="escolha_personagem"><p>Escolha o personagem:</p></div>
+    <body>
+	    <div>
+			<!--Cabeçalho-->
+			<h1>POGGERS</h1>
 			
-			<div id="maria_antonieta">
-				<button id="pe_maria">
-					<a href="antonieta_index.html">
-						<figure>
-							<img src="https://i.imgur.com/6WBlHf9.png" width="200" height="250">
-							<figcaption>Maria Antonieta</figcaption>
-						</figure>	
-					</a>
-				</button>
+			<h1 id="nome_jogo">A revolução</h1>
+			<br><br>
+			
+			<!--Botão para levar o jogador para o jogo-->
+			
+			<br>
+			
+			
+			<!--Botões de escolha de personagem. Vai definir qual arquivo seguirá-->
+			<div id="escolha de personagem">
+				<div id="escolha_personagem"><p><strong>Escolha o personagem:</strong></p>
 			</div>
-
-			<div id="soldado">
-				<button id="pe_aliquis">
-					<a href="aliquis_index_combate0.html">
-						<figure>
-							<img src="https://i.imgur.com/rIwgbOa.png" width="200" height="250">
-							<figcaption>Aliquis Petit</figcaption>
-						</figure>
-					</a>
-				</button>
+				
+				<div id="maria_antonieta">
+					<button id="pe_maria">
+						<a href="antonieta_index.html">
+							<figure>
+								<img src="https://i.imgur.com/6WBlHf9.png" width="200" height="250">
+								<figcaption>Maria Antonieta</figcaption>
+							</figure>	
+						</a>
+					</button>
+				</div>
+	
+				<div id="soldado">
+					<button id="pe_aliquis">
+						<a href="aliquis_index_combate0.html">
+							<figure>
+								<img src="https://i.imgur.com/rIwgbOa.png" width="200" height="250">
+								<figcaption>Aliquis Petit</figcaption>
+							</figure>
+						</a>
+					</button>
+				</div>
+				<!--Logo do jogo-->
+				<div id="logo">
+						<img src="https://user-images.githubusercontent.com/115472816/200200517-1861b210-2f7d-4294-9397-24aa89fdc304.jpg" width="250">
+				</div>	
 			</div>
-			<button id="button_aleatorio">Aleatório</button>
-			<!--Logo do jogo-->
-			<div id="logo">
-					<img src="https://user-images.githubusercontent.com/115472816/200200517-1861b210-2f7d-4294-9397-24aa89fdc304.jpg" width="250">
-			</div>	
-        </div>
-        
-        
-	    <!--Orientações para o jogador-->
-		<div id="regras">
-			<center>
-			<button id="button_regras" type="button" onclick=exibirregras()>Orientações</button>
-			<p id="topicos"></p>
-			</center>
-
-			<!--Botão que irá levar a outra página com os créditos-->	
-		
-			<button id="button_creditos"><a href="creditospag.html">Créditos</a></button>
+			
+			
+			<!--Orientações para o jogador-->
+			<div id="regras">
+				<center>
+				<button id="button_regras"><a href="#" onclick="abrirregras()">Orientações</a></button>
+				<p id="topicos"></p>
+				</center>
+	
+				<!--Botão que irá levar a outra página com os créditos-->	
+			
+				<button id="button_creditos"><a href="https://tiago070.github.io/integrador2022/creditospag.html">Créditos</a></button>
 		</div>
+
+		<div id="popregras">
+            <h1 id="titulo">Orientações</h1>
+            <hr id="divisao">
+            <ol>
+				<li>Escolha o personagem;</li>
+				<li>Leia as instruções nos quadros;</li>
+				<li>Analise as informações e faça sua escolha;</li>
+				<li>Prossiga a história seguindo as orientações.</li>
+			</ol>
+            <hr id="divisao">
+			<center>
+            	<button id="fecha_regras"><a href="#" onclick="fecharregras()">OK</a></button>
+			</center>
+        </div>
   </body> 
 </html>
