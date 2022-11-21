@@ -6,6 +6,7 @@ h2{
  color:	white;
  font-size: 30px;
  font-family:monospace;
+ positon: center;
 }
 [id ^= botao_credito] {
     background-color: #bd6417; /* Green */
