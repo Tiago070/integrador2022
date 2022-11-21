@@ -32,10 +32,6 @@ h2{
     color: black; 
     border: 2px solid #bd6417;
 }
-#img_sangue{
-size:60px; 
-padding-bottom:200px;
-}
 
 [id ^= bot_credito]:hover {
     background-color: #bd6417;
@@ -46,4 +42,9 @@ padding-bottom:200px;
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+#img_sangue{
+width:70px; 
+padding-bottom:500px;
 }
