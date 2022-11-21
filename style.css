@@ -64,17 +64,6 @@ h1{
     text-align: center;
 }
 
-/*corpo da morte de Aliquis*/
-#corpo_morte{
-    background-color:black;
-} 
-
-#tx_aliquisdead{
- color:	#800000;
- font-size: 30px;
- font-family:FreeMono, monospace;
-}
-
 /*escolha o personagem e clique para iniciar*/
 p {
     font-size:x-large;
