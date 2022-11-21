@@ -98,6 +98,7 @@ button:hover {
 button:hover {
     transform: scale(1.1);
     transition: all 0.5s;
+    border-radius: 10px;
 }
 
 
@@ -109,17 +110,7 @@ button:hover {
 button:hover {
     transform: scale(1.1);
     transition: all 0.5s;
-}
-
-#button_aleatorio{
-    margin: 12px 40px 100px 25px;
-    padding: 30px 40px 30px 40px;
-    display: inline-block;
-}
-
-button:hover {
-    transform: scale(1.1);
-    transition: all 0.5s;  
+    border-radius: 10px;
 }
 
 
@@ -127,7 +118,7 @@ button:hover {
 #logo{
     display:inline-block;
     text-align: right;
-    padding-left: 350px;
+    padding-left: 550px;
 }
     
 /*Botão de orientações*/
