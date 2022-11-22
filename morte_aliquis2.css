@@ -1,7 +1,6 @@
 body{
     background-image: url("https://user-images.githubusercontent.com/115472944/196083968-ac4e601c-0a37-484b-bc83-462c0b3b41b1.png");
     background-repeat: fixed;
-    max-width: 80px;
 } 
 
 h2{
@@ -42,10 +41,9 @@ h2{
 
 [id ^= bot_credito]:active {
     background-color: #D3D3D3;
-    box-shadow: 0 5px green;
+    box-shadow: 0 5px #808080;
     transform: translateY(4px);
 }
 
 #img_sangue{
-margin-bottom:500px;
 }
