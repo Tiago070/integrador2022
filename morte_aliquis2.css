@@ -10,7 +10,7 @@ h2{
 }
 
 [id ^= bot_credito] {
-    background-color: #bd6417; /* Green */
+    background-color: red; /* Green */
     border: none;
     border-radius: 10px;
     color: white;
