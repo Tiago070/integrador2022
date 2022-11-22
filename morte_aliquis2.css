@@ -41,7 +41,7 @@ h2{
 
 [id ^= bot_credito]:active {
     background-color: #D3D3D3;
-    box-shadow: 0 5px #808080;
+    box-shadow: 0 5px 	#4F4F4F;
     transform: translateY(4px);
 }
 
