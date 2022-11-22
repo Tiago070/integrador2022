@@ -45,5 +45,6 @@ h2{
     transform: translateY(4px);
 }
 
-#img_sangue{
+img{
+    margin-botton: 30px;
 }
