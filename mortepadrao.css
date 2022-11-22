@@ -1,11 +1,55 @@
-img {
+*/img {
     position: absolute;
     top: 35%;
     left: 35%;
     width: 25%;
     height: 35%;
     
+}/*
+
+body{
+    background-image: url("https://user-images.githubusercontent.com/115472944/196083968-ac4e601c-0a37-484b-bc83-462c0b3b41b1.png");
+    background-repeat: fixed;
+} 
+
+h2{
+ color:	white;
+ font-size: 30px;
+ font-family:monospace;
 }
-.div_morte {
-    src: url('Tangerine-Bold.ttf');
+
+[id ^= bot_credits] {
+    background-color: red; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px rgb(160, 84, 44);
+}
+
+[id ^= bot_cre]{
+  text-decoration: none;
+}
+  
+[id ^= bot_credits] {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #bd6417;
+}
+
+[id ^= bot_credits]:hover {
+    background-color: #bd6417;
+    color: white;
+}
+
+[id ^= bot_credits]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
