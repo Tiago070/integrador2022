@@ -12,44 +12,6 @@ body{
     font-size: 5em;
 }
 
-[id ^= button] {
-    background-color: #ab221b; /* Green */
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    box-shadow: 0 9px rgb(110, 4, 4);
-}
-  
-[id ^= button] {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #ab221b;
-}
-  
-[id ^= button]:hover {
-    background-color: #ab221b;
-    color: white;
-}
-
-[id ^= button]:active {
-    background-color: #ab221b;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-
-a:link, a:visited{
-    text-decoration: none;
-    color: black;
-}
-
 h1{
     border: dashed;
 }
